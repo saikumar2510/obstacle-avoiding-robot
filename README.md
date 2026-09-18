@@ -13,25 +13,10 @@ Suitable for robotics and embedded-systems projects
 🛠️ Components Required
 Arduino Uno
 Ultrasonic Sensor (HC-SR04)
-L298N Motor Driver
-2 × DC Gear Motors
-Robot chassis
-Robot wheels
-Caster wheel
-Battery
-Jumper wires
-Breadboard (optional)
-🔌 Basic Connections
+L293D Motor Driver
+DC Gear Motors
+16x2 LCD
+9 V battery
+Potentiometer
+Breadboard
 
-Component	Arduino
-HC-SR04 Trig	Digital Pin 9
-HC-SR04 Echo	Digital Pin 10
-Motor Driver IN1	Digital Pin 2
-Motor Driver IN2	Digital Pin 3
-Motor Driver IN3	Digital Pin 4
-Motor Driver IN4	Digital Pin 5
-Motor Driver ENA	PWM Pin 6
-Motor Driver ENB	PWM Pin 11
-Connect the ultrasonic sensor's VCC to 5V and GND to Arduino GND.
-
-Note: Motor-driver and motor wiring can vary depending on the particular L298N module and robot chassis.
